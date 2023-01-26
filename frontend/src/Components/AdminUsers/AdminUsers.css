@@ -1,0 +1,97 @@
+.users {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.table_div {
+  width: 60%;
+  height: 50%;
+  padding: 20px;
+  display: flex;                                        
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.table_div table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+table img {
+  width: 100px;
+  height: 100px;
+}
+.search_div {
+  border: #17252a;
+  width: 50%;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.search_div input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: large;
+}
+
+.user_options {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add_user {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 500;
+  font-size: large;
+  color: #fff;
+  background-color: #5cb85c;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.user_table th td {
+  text-align: center;
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.edit_user {
+  padding: 10px;
+  font-weight: 700;
+  font-size: large;
+  color: #fff;
+  background-color: #0275d8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete_user {
+  padding: 10px;
+  font-weight: 700;
+  font-size: large;
+  color: #fff;
+  background-color: #d9534f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edopstions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
